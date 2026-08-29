@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 30px;
+}</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classifir</title>
+</head>
+<body>    
+
+
+<h1>Digit Classifier</h1>
+    <input
+        type="file"
+        id="imageInput"
+        accept="image/*"
+    >
+        <button onclick="predictDigit()">
+        Predict
+    </button>
+
+        <h2 id="result"></h2>
+        <script src="script.js"></script>
+
+
+
+</body>
+</html>

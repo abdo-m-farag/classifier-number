@@ -1,5 +1,19 @@
+# Virtual environment
 .venv/
+
+# Python cache
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
 data/
+
+# Model weights
+*.pth
+*.pt
+
+# Environment / secrets
+.env
